@@ -1,0 +1,7 @@
+name = "parent-service"
+main = "src/index.ts"
+compatibility_date = "2022-10-24"
+
+services = [
+    {binding ="child", service = "child-service", environment = "production"}
+]
